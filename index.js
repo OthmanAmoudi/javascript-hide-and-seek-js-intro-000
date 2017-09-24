@@ -11,6 +11,5 @@ function increaseRankBy(n){
   for (let i=0;i<selector.length;i++){
     selector+= parseInt(n);
   }
-  
-}
 
+}
