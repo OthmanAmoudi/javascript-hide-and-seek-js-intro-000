@@ -1,5 +1,5 @@
 function getFirstSelector(selector){
-  return document.getElementById(selector)[0];
+  return document.getElementByTagName(selector)[0];
 }
 
 function nestedTarget(){
